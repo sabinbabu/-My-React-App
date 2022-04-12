@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #282D35;
 }
 
 .navbar{
@@ -27,11 +28,20 @@ body{
 }
 
 .main{
-    align-items: center;
     padding: 25px 30px;
+    color: white;
 }
 
 .main--list{
+    font-size: 20px; 
+}
+
+.main--list > li{
     font-size: 20px;
-    
+    padding-block: 10px ;
+}
+
+.main--list > li::marker{
+    color: #61DAFB;
+   
 }
