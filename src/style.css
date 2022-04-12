@@ -30,6 +30,10 @@ body{
 .main{
     padding: 25px 30px;
     color: white;
+    background-image: url(./images/logo512.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    background-size: 250px;
 }
 
 .main--list{
